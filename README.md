@@ -19,9 +19,12 @@ In this paper, we introduce a simple method that can separate arbitrary musical 
 We want to isolate the famous synthesizer melody in the mixture. Listen here:
 
 
-| Input Mixture                                                                          | Synthesized Target                                                                       | Bespoke Ouput                                                                          | Spleeter Output ("Other" source)                                                         |
-|----------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
-| <audio controls>   <source src="audio/take_on_me/mix.wav" type="audio/wav">   </audio> | <audio controls>   <source src="audio/take_on_me/synth.wav" type="audio/wav">   </audio> | <audio controls>   <source src="audio/take_on_me/est.wav" type="audio/wav">   </audio> | <audio controls>   <source src="audio/take_on_me/other.wav" type="audio/wav">   </audio> |
+| Name                            | Audio                                                                                    | Comments                                                                   |
+|---------------------------------|------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| Input Mixture                   | <audio controls>   <source src="audio/take_on_me/mix.wav" type="audio/wav">   </audio>   | Mix contains drums, bass, the synth melody and a synth counter melody.     |
+| Synthesized Target              | <audio controls>   <source src="audio/take_on_me/synth.wav" type="audio/wav">   </audio> | Synthesis is close but doesn't quite match the true melody in the mix.     |
+| Bespoke Output                  | <audio controls>   <source src="audio/take_on_me/est.wav" type="audio/wav">   </audio>   | Bespoke output isolates the desired source.                                |
+| Spleeter Ouput ("other" source) | <audio controls>   <source src="audio/take_on_me/other.wav" type="audio/wav">   </audio> | Spleeter's output has more bleed from the other synthesizer countermelody. |
 
 
 #### Reelin' in the Years by Steely Dan
