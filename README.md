@@ -19,10 +19,9 @@ In this paper, we introduce a simple method that can separate arbitrary musical 
 We want to isolate the famous synthesizer melody in the mixture.
 
 
-| Input Mixture | Synthesized Target | Bespoke Ouput | Spleeter Output ("Other" source) |
-|---------------|--------------------|---------------|----------------------------------|
-|               |                    |               |                                  |
-
+| Input Mixture                                                                          | Synthesized Target                                                                       | Bespoke Ouput                                                                          | Spleeter Output ("Other" source)                                                         |
+|----------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| <audio controls>   <source src="audio/take_on_me/mix.wav" type="audio/wav">   </audio> | <audio controls>   <source src="audio/take_on_me/synth.wav" type="audio/wav">   </audio> | <audio controls>   <source src="audio/take_on_me/est.wav" type="audio/wav">   </audio> | <audio controls>   <source src="audio/take_on_me/other.wav" type="audio/wav">   </audio> |
 
 
 #### Reelin' in the Years by Steely Dan
