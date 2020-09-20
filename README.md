@@ -32,9 +32,12 @@ We want to isolate the famous synthesizer melody in the mixture. Listen here:
 We want to isolate just _one_ of the _two_ guitars playing a melody in diatonic thirds.
 
 
-| Input Mixture | Synthesized Target | Bespoke Ouput | Spleeter Output ("Other" source) |
-|---------------|--------------------|---------------|----------------------------------|
-|               |                    |               |                                  |
+| Name                            | Audio                                                                                | Comments                                                                                                   |
+|---------------------------------|--------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
+| Input Mixture                   | <audio controls>   <source src="audio/reelin/mix.wav" type="audio/wav">   </audio>   | Mix contains piano, drums, bass, two guitars playing in diatonic thirds.                                   |
+| Synthesized Target              | <audio controls>   <source src="audio/reelin/synth.wav" type="audio/wav">   </audio> | Synthesis is not quite perfect; some notes are wrongly embellished.                                        |
+| Bespoke Output                  | <audio controls>   <source src="audio/reelin/est.wav" type="audio/wav">   </audio>   | Bespoke output isolates the desired source, but the source fades at parts.                                 |
+| Spleeter Ouput ("other" source) | <audio controls>   <source src="audio/reelin/other.wav" type="audio/wav">   </audio> | Spleeter's output has lots more bleed from all other instruments in the mix, including the second guitar.. |
 
 
 
