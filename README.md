@@ -13,10 +13,12 @@ In this paper, we introduce a simple method that can separate arbitrary musical 
 
 ### Audio Demos
 
+**NOTE:** Both demos are monophonic and sampled at 16 kHz. We recommend listening on headphones.
+
 #### Take On Me by A-ha
 
 
-We want to isolate the famous synthesizer melody in the mixture. Listen here:
+We want to isolate the famous synthesizer melody in the mixture. This bespoke network was trained on mixtures of the Synthesized Target and the Input Mixture below:
 
 
 | Name                            | Audio                                                                                    | Comments                                                                   |
@@ -29,14 +31,15 @@ We want to isolate the famous synthesizer melody in the mixture. Listen here:
 
 #### Reelin' in the Years by Steely Dan
 
-We want to isolate just _one_ of the _two_ guitars playing a melody in diatonic thirds.
+We want to isolate just _one_ of the _two_ guitars playing a melody in diatonic thirds. An example of the Synthesized Target and the Synthesized Background that the bespoke network was trained are provided below. The transcriptions were found online.
 
 
 | Name                            | Audio                                                                                | Comments                                                                                                   |
 |---------------------------------|--------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
 | Input Mixture                   | <audio controls>   <source src="audio/reelin/mix.wav" type="audio/wav">   </audio>   | Mix contains piano, drums, bass, two guitars playing in diatonic thirds.                                   |
-| Synthesized Target              | <audio controls>   <source src="audio/reelin/synth.wav" type="audio/wav">   </audio> | Synthesis is not quite perfect; some notes are wrongly embellished.                                        |
-| Bespoke Output                  | <audio controls>   <source src="audio/reelin/est.wav" type="audio/wav">   </audio>   | Bespoke output isolates the desired source, but the source fades at parts.                                 |
+| Synthesized Target              | <audio controls>   <source src="audio/reelin/synth.wav" type="audio/wav">   </audio> | The transcription that was synthesized is not aligned nor are the notes all correct (some notes are wrongly embellished).       |
+| Synthesized Background              | <audio controls>   <source src="audio/reelin/synth.wav" type="audio/wav">   </audio> | The transcriptions that were synthesized are not quite perfect; every                                         |
+| Bespoke Output                  | <audio controls>   <source src="audio/reelin/est.wav" type="audio/wav">   </audio>   | While the bespoke output isolates the desired source, it quite a few artifacts.                                 |
 | Spleeter Ouput ("other" source) | <audio controls>   <source src="audio/reelin/other.wav" type="audio/wav">   </audio> | Spleeter's output has lots more bleed from all other instruments in the mix, including the second guitar.. |
 
 
