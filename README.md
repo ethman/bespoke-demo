@@ -26,7 +26,7 @@ We want to isolate the famous synthesizer melody in the mixture. This bespoke ne
 | Input Mixture                   | <audio controls>   <source src="audio/take_on_me/mix.wav" type="audio/wav">   </audio>   | Mix contains drums, bass, the synth melody and a synth counter melody.     |
 | Synthesized Target              | <audio controls>   <source src="audio/take_on_me/synth.wav" type="audio/wav">   </audio> | Synthesis is close but doesn't quite match the true melody in the mix.     |
 | Bespoke Output                  | <audio controls>   <source src="audio/take_on_me/est.wav" type="audio/wav">   </audio>   | Bespoke output isolates the desired source.                                |
-| Spleeter Ouput ("other" source) | <audio controls>   <source src="audio/take_on_me/other.wav" type="audio/wav">   </audio> | Spleeter's output has more bleed from the other synthesizer countermelody. |
+| Spleeter Output ("other" source) | <audio controls>   <source src="audio/take_on_me/other.wav" type="audio/wav">   </audio> | Spleeter's output has more bleed from the other synthesizer countermelody. |
 
 
 #### Reelin' in the Years by Steely Dan
@@ -40,7 +40,7 @@ We want to isolate just _one_ of the _two_ guitars playing a melody in diatonic 
 | Synthesized Target              | <audio controls>   <source src="audio/reelin/synth.wav" type="audio/wav">   </audio> | The transcription that was synthesized is not aligned nor are the notes all correct (some notes are wrongly embellished at ~10sec).       |
 | Synthesized Background              | <audio controls>   <source src="audio/reelin/background.wav" type="audio/wav">   </audio> | The transcriptions that were synthesized are not quite perfect and missing the rhythm guitar. They also sound quite cheesy and very unlike the input mixture.                    |
 | Bespoke Output                  | <audio controls>   <source src="audio/reelin/est.wav" type="audio/wav">   </audio>   | While the bespoke output isolates the desired source, it quite a few artifacts.                                 |
-| Spleeter Ouput ("other" source) | <audio controls>   <source src="audio/reelin/other.wav" type="audio/wav">   </audio> | Spleeter's output has lots more bleed from all other instruments in the mix, including the other guitar playing in the diatonic thirds. |
+| Spleeter Output ("other" source) | <audio controls>   <source src="audio/reelin/other.wav" type="audio/wav">   </audio> | Spleeter's output has lots more bleed from all other instruments in the mix, including the other guitar playing in the diatonic thirds. |
 
 
 
