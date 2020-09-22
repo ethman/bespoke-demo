@@ -37,10 +37,10 @@ We want to isolate just _one_ of the _two_ guitars playing a melody in diatonic 
 | Name                            | Audio                                                                                | Comments                                                                                                   |
 |---------------------------------|--------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
 | Input Mixture                   | <audio controls>   <source src="audio/reelin/mix.wav" type="audio/wav">   </audio>   | Mix contains piano, drums, bass, two guitars playing in diatonic thirds.                                   |
-| Synthesized Target              | <audio controls>   <source src="audio/reelin/synth.wav" type="audio/wav">   </audio> | The transcription that was synthesized is not aligned nor are the notes all correct (some notes are wrongly embellished).       |
-| Synthesized Background              | <audio controls>   <source src="audio/reelin/synth.wav" type="audio/wav">   </audio> | The transcriptions that were synthesized are not quite perfect; every                                         |
+| Synthesized Target              | <audio controls>   <source src="audio/reelin/synth.wav" type="audio/wav">   </audio> | The transcription that was synthesized is not aligned nor are the notes all correct (some notes are wrongly embellished at ~10sec).       |
+| Synthesized Background              | <audio controls>   <source src="audio/reelin/background.wav" type="audio/wav">   </audio> | The transcriptions that were synthesized are not quite perfect and missing the rhythm guitar. They also sound quite cheesy and very unlike the input mixture.                    |
 | Bespoke Output                  | <audio controls>   <source src="audio/reelin/est.wav" type="audio/wav">   </audio>   | While the bespoke output isolates the desired source, it quite a few artifacts.                                 |
-| Spleeter Ouput ("other" source) | <audio controls>   <source src="audio/reelin/other.wav" type="audio/wav">   </audio> | Spleeter's output has lots more bleed from all other instruments in the mix, including the second guitar.. |
+| Spleeter Ouput ("other" source) | <audio controls>   <source src="audio/reelin/other.wav" type="audio/wav">   </audio> | Spleeter's output has lots more bleed from all other instruments in the mix, including the other guitar playing in the diatonic thirds. |
 
 
 
